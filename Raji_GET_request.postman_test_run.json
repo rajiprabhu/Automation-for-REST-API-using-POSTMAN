@@ -1,0 +1,148 @@
+{
+	"id": "0e8600bf-eb11-44df-8c2a-1ae8e61195d6",
+	"name": "Raji_GET_request",
+	"allTests": [],
+	"timestamp": "2019-09-08T02:46:52.130Z",
+	"collection_id": "707ba3de-d4f6-44d1-97ac-06456a7c9f2e",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 10,
+	"collection": {
+		"id": "707ba3de-d4f6-44d1-97ac-06456a7c9f2e",
+		"name": "Raji_GET_request",
+		"description": "",
+		"auth": null,
+		"events": null,
+		"variables": [],
+		"order": [
+			"d76bd798-87bf-43bc-9d9a-aa9c3786089f"
+		],
+		"folders_order": [],
+		"owner": "8283651",
+		"favorite": false,
+		"isFavorite": true
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "GET on status",
+			"id": "d76bd798-87bf-43bc-9d9a-aa9c3786089f",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 500ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"2",
+				"2",
+				"2",
+				"2",
+				"3",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				}
+			],
+			"time": "2",
+			"totalRequestTime": 21,
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 20,
+	"totalFail": 0,
+	"totalTime": 21,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "GET on status",
+			"id": "d76bd798-87bf-43bc-9d9a-aa9c3786089f",
+			"url": "http://localhost:8088/hash/1",
+			"time": "2",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		}
+	],
+	"synced": false
+}

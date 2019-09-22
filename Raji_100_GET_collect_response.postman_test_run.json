@@ -1,0 +1,727 @@
+{
+	"id": "2d617b36-98cb-48e6-88af-f4b6a6426c0c",
+	"name": "Raji_100_GET_collect_response",
+	"allTests": [],
+	"timestamp": "2019-09-18T23:16:34.735Z",
+	"collection_id": "5f804885-d97c-4cac-bd19-3252f2c1a16a",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 100,
+	"collection": {
+		"id": "5f804885-d97c-4cac-bd19-3252f2c1a16a",
+		"name": "Raji_100_GET_collect_response",
+		"description": "",
+		"auth": null,
+		"events": [
+			{
+				"listen": "prerequest",
+				"script": {
+					"id": "48d3811a-683d-4c71-b4e2-d8f3e55b8f4a",
+					"type": "text/javascript",
+					"exec": [
+						""
+					]
+				}
+			},
+			{
+				"listen": "test",
+				"script": {
+					"id": "b6f1c432-88fd-40cf-8c56-04a15e7e82f9",
+					"type": "text/javascript",
+					"exec": [
+						""
+					]
+				}
+			}
+		],
+		"variables": [],
+		"order": [
+			"933087a4-e230-4758-9878-6b5372ac3f4d"
+		],
+		"folders_order": [],
+		"owner": "8283651",
+		"favorite": false
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "GET on status",
+			"id": "933087a4-e230-4758-9878-6b5372ac3f4d",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Body matches string": true,
+				"Status code is 200": true,
+				"Response time is less than 500ms": true
+			},
+			"testPassFailCounts": {
+				"Body matches string": {
+					"pass": 100,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 100,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 100,
+					"fail": 0
+				}
+			},
+			"times": [
+				"7",
+				"3",
+				"2",
+				"2",
+				"2",
+				"2",
+				"3",
+				"1",
+				"1",
+				"1",
+				"2",
+				"2",
+				"1",
+				"2",
+				"3",
+				"1",
+				"4",
+				"3",
+				"2",
+				"2",
+				"2",
+				"1",
+				"1",
+				"1",
+				"2",
+				"2",
+				"8",
+				"3",
+				"1",
+				"4",
+				"3",
+				"2",
+				"2",
+				"3",
+				"2",
+				"4",
+				"4",
+				"9",
+				"4",
+				"1",
+				"4",
+				"1",
+				"3",
+				"7",
+				"3",
+				"5",
+				"4",
+				"2",
+				"2",
+				"2",
+				"1",
+				"2",
+				"2",
+				"2",
+				"2",
+				"1",
+				"1",
+				"2",
+				"2",
+				"1",
+				"1",
+				"2",
+				"1",
+				"2",
+				"2",
+				"2",
+				"4",
+				"1",
+				"1",
+				"2",
+				"2",
+				"1",
+				"2",
+				"2",
+				"2",
+				"1",
+				"1",
+				"2",
+				"3",
+				"10",
+				"1",
+				"1",
+				"5",
+				"4",
+				"1",
+				"1",
+				"4",
+				"2",
+				"1",
+				"1",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"1",
+				"2",
+				"1",
+				"1"
+			],
+			"allTests": [
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				},
+				{
+					"Body matches string": true,
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				}
+			],
+			"time": "1",
+			"totalRequestTime": 236,
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 300,
+	"totalFail": 0,
+	"totalTime": 236,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "GET on status",
+			"id": "933087a4-e230-4758-9878-6b5372ac3f4d",
+			"url": "http://localhost:8088/hash/1",
+			"time": "1",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Body matches string": {
+					"pass": 100,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 100,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 100,
+					"fail": 0
+				}
+			}
+		}
+	],
+	"synced": false
+}

@@ -1,0 +1,599 @@
+{
+	"id": "10d7adc6-8cb5-4c27-a762-5a1ac4155275",
+	"name": "100-POST",
+	"allTests": [],
+	"timestamp": "2019-09-17T03:14:23.915Z",
+	"collection_id": "e2c2d4f6-304b-41c4-99e2-1d0ee1f4a4b4",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 100,
+	"collection": {
+		"id": "e2c2d4f6-304b-41c4-99e2-1d0ee1f4a4b4",
+		"name": "100-POST",
+		"description": "",
+		"auth": null,
+		"events": null,
+		"variables": [],
+		"order": [
+			"3bf57b40-34a0-4d39-ab83-491d092b3e9a"
+		],
+		"folders_order": [
+			"044c6c60-c69c-42b4-ad28-ec237d1ec095"
+		],
+		"owner": "8283651",
+		"favorite": false
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "post",
+			"id": "3bf57b40-34a0-4d39-ab83-491d092b3e9a",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 600ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 100,
+					"fail": 0
+				},
+				"Response time is less than 600ms": {
+					"pass": 100,
+					"fail": 0
+				}
+			},
+			"times": [
+				"5009",
+				"5010",
+				"5009",
+				"5008",
+				"5011",
+				"5016",
+				"5007",
+				"5007",
+				"5018",
+				"5008",
+				"5005",
+				"5010",
+				"5014",
+				"5012",
+				"5007",
+				"5010",
+				"5020",
+				"5006",
+				"5012",
+				"5018",
+				"5007",
+				"5005",
+				"5017",
+				"5007",
+				"5007",
+				"5005",
+				"5015",
+				"5008",
+				"5006",
+				"5004",
+				"5006",
+				"5003",
+				"5004",
+				"5006",
+				"5014",
+				"5006",
+				"5006",
+				"5015",
+				"5010",
+				"5005",
+				"5005",
+				"5016",
+				"5015",
+				"5004",
+				"5004",
+				"5005",
+				"5008",
+				"5005",
+				"5009",
+				"5008",
+				"5006",
+				"5005",
+				"5007",
+				"5005",
+				"5004",
+				"5014",
+				"5008",
+				"5008",
+				"5005",
+				"5008",
+				"5005",
+				"5004",
+				"5004",
+				"5012",
+				"5018",
+				"5008",
+				"5025",
+				"5012",
+				"5006",
+				"5005",
+				"5010",
+				"5005",
+				"5004",
+				"5011",
+				"5007",
+				"5006",
+				"5006",
+				"5005",
+				"5006",
+				"5005",
+				"5020",
+				"5011",
+				"5005",
+				"5005",
+				"5023",
+				"5004",
+				"5005",
+				"5007",
+				"5007",
+				"5005",
+				"5004",
+				"5005",
+				"5005",
+				"5005",
+				"5008",
+				"5005",
+				"5006",
+				"5005",
+				"5006",
+				"5006"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				}
+			],
+			"time": "5006",
+			"totalRequestTime": 500833,
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 200,
+	"totalFail": 0,
+	"totalTime": 500833,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "post",
+			"id": "3bf57b40-34a0-4d39-ab83-491d092b3e9a",
+			"url": "http://localhost:8088/hash",
+			"time": "5006",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 100,
+					"fail": 0
+				},
+				"Response time is less than 600ms": {
+					"pass": 100,
+					"fail": 0
+				}
+			}
+		}
+	],
+	"synced": false
+}
